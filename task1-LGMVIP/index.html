@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single-page-website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+</head>
+
+<body>
+
+    <!-----------------------------------homepage start----------------------------------->
+    <header>
+        <a href="#" class="logo">MAHARASHTRA DARSHAN</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">services</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="imgBx">
+            <img src="images/csmt.jpg" class=active>
+            <img src="images/sealink.jpg">
+            <img src="images/elephanta-caves.jpg">
+            <img src="images/beach.jpg" alt="">
+        </div>
+
+        <div class="contentBx">
+            <div class="active">
+                <h2>Slide Text One</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero est numquam eos id temporibus.</p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero est numquam eos id temporibus.</p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Three</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero est numquam eos id temporibus.</p>
+                <a href="#">Details</a>
+            </div>
+            <div>
+                <h2>Slide Text Four</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vero est numquam eos id temporibus.</p>
+                <a href="#">Details</a>
+            </div>
+
+        </div>
+
+        <ul class="controls">
+            <li onclick="prevSlide();prevSlideText();"></li>
+            <li onclick="nextSlide();nextSlideText();"></li>
+        </ul>
+    </section>
+    <!-------------------------------homepage end--------------------------------------->
+
+    <!-----------------------------about us starts-------------------------------->
+
+    <section class="about">
+        <h1 class="heading">About us</h1>
+        <h3 class="title">Explore Maharashtra with us</h3>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/traveler.png" alt="">
+            </div>
+            <div class="content">
+                <h3>why choose us?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum corrupti qui ipsum sint minus
+                    reprehenderit, architecto accusamus repellat blanditiis voluptatum.</p>
+                <a href="#"><button class="btn">read more</button></a>
+            </div>
+
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa fa-map"></i>
+                <h3>Travel Guide</h3>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-users"></i>
+                <h3>24 x 7 service</h3>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-hotel"></i>
+                <h3>Hotel Booking</h3>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!------------------------------abouts us ends-------------------------------->
+    <!---------------------------------features starts------------------------------>
+
+    <section class="feature" id="feature">
+        <h1 class="heading">Popular Places</h1>
+        <h3 class="title">See The Most Featured Places</h3>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/nashik.jpg" alt="">
+                <div class="info">
+                    <h3>Nashik</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i clasa="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, laboriosam.</p>
+                    <a href="#"><button class="btn">visit now!</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/kolhapur.jpg" alt="">
+                <div class="info">
+                    <h3>Kolhapur</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, laboriosam.</p>
+                    <a href="#"><button class="btn">visit now!</button></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/gateway.jpg" alt="">
+                <div class="info">
+                    <h3>Mumbai</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, laboriosam.</p>
+                    <a href="#"><button class="btn">visit now!</button></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----------------------features end-------------------------------->
+    <!---------------------------review start-------------------------------->
+
+    <section class="review" id="review">
+        <h1 class="heading">Customer Review</h1>
+        <h3 class="title">what people says about us</h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nesciunt tenetur maxime. Non repellat
+                    magnam quam quaerat voluptas! Ut, tempore?</p>
+                <div class="user">
+                    <img src="images/girl1.jpg" alt="">
+                    <div class="info">
+                        <h3>Anjali Shinde</h3>
+                        <span>Oct 7,2021</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nesciunt tenetur maxime. Non repellat
+                    magnam quam quaerat voluptas! Ut, tempore?</p>
+                <div class="user">
+                    <img src="images/man1.jpg" alt="">
+                    <div class="info">
+                        <h3>Rohit Sharma</h3>
+                        <span>Oct 7,2021</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nesciunt tenetur maxime. Non repellat
+                    magnam quam quaerat voluptas! Ut, tempore?</p>
+                <div class="user">
+                    <img src="images/girl2.jpg" alt="">
+                    <div class="info">
+                        <h3>Emma Watson</h3>
+                        <span>Oct 7,2021</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!---------------------------review end-------------------------------->
+    <!------------------------newsletter starts---------------------------->
+
+    <section class="newsletter">
+        <div class="box">
+            <h1>Sign up for discount</h1>
+            <p>Get in touch with us and get latest updates</p>
+
+            <form action="">
+                <input type="email" placeholder="Enter your email">
+                <input type="submit" class="btn" value="send">
+            </form>
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <!------------------------newsletter end---------------------------->
+<!---------------------------contact us start--------------------------->
+
+
+<div class="contact-in">
+    <div class="contact-map">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.3922691977855!2d73.14786851412613!3d19.2217286523724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79446f49b6057%3A0x58d992721f3956de!2sTata%20Colony%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1632577763387!5m2!1sen!2sin"
+            width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+    <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form>
+            <input type="text" placeholder="Name" class="contact-form-txt" />
+            <input type="text" placeholder="Email" class="contact-form-txt" />
+            <textarea placeholder="Message" class="contact-form-txtarea"></textarea>
+            <input type="submit" name="Submit" class="contact-form-btn" />
+
+        </form>
+    </div>
+</div>
+
+<!---------------------------contact us end--------------------------->
+<!------------------------------------footer start---------------------------------->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+            <h4>MAHARASHTRA DARSHAN</h4>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">Payemnt</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> Kalyan,Vithalwadi</a></li>
+                <li><a href="#"><i class="fas fa-phone"></i> +91-93******55</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i> xyz@travel.com</a></li>
+                
+
+            </ul>
+        </div>
+
+<div class="footer-col">
+    <h4>Follows us</h4>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+
+    </div>
+</div>
+
+    </div>
+    </div>
+    
+
+<!---------------------------------------------bottom start----------------------------------------------->
+
+    <div class="footer-bottom">
+        <p>copyright &copy;2021 Maharashtra Darshan.designed by <span>anjali shinde</span></p>
+    </div>
+</footer>
+<!----------------------------------------------bottom end------------------------------------------------->
+<!-------------------------------------------------footer end--------------------------------------->
+
+    <script type="text/javascript">
+        const imgBx = document.querySelector('.imgBx')
+        const slides = imgBx.getElementsByTagName('img');
+        var i = 0;
+
+        function nextSlide() {
+            slides[i].classList.remove('active');
+            i = (i + 1) % slides.length;
+            slides[i].classList.add('active');
+        }
+        function prevSlide() {
+            slides[i].classList.remove('active');
+            i = (i - 1 + slides.length) % slides.length;
+            slides[i].classList.add('active');
+        }
+
+
+        const contentBx = document.querySelector('.contentBx')
+        const slidesText = contentBx.getElementsByTagName('div');
+        var j = 0;
+
+        function nextSlideText() {
+            slidesText[j].classList.remove('active');
+            j = (j + 1) % slidesText.length;
+            slidesText[j].classList.add('active');
+        }
+        function prevSlideText() {
+            slidesText[j].classList.remove('active');
+            j = (j - 1 + slidesText.length) % slidesText.length;
+            slidesText[j].classList.add('active');
+        }
+
+    </script>
+</body>
+
+</html>
